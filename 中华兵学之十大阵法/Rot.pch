@@ -1,0 +1,64 @@
+//
+//  Rot.pch
+//  中华兵学之十大阵法
+//
+//  Created by D.xin on 2019/7/28.
+//  Copyright © 2019 koryv. All rights reserved.
+//
+
+#ifndef Rot_pch
+#define Rot_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <IGListKit/IGListKit.h>
+#import <Masonry/Masonry.h>
+#import <Weibo_SDK/WeiboSDK.h>
+#import "HomeCellModelProtocol.h"
+#import "HomeListCellProtocol.h"
+#import "UIColor+QCategory.h"
+#import "MainSectionModelProtocol.h"
+#import "MainCellProtocol.h"
+#import "BaseViewController.h"
+#import <MJExtension/MJExtension.h>
+#import "DataManager.h"
+#import <LLDebugTool/LLDebugTool.h>
+#import <LLDebugTool/LLDebug.h>
+#define WeakObj(o) autoreleasepool{} __weak typeof(o) o##Weak = o;
+
+#define ScrH   [UIScreen mainScreen].bounds.size.height
+#define ScrW   [UIScreen mainScreen].bounds.size.width
+#define scrWeen
+/// 是否横竖屏
+/// 用户界面横屏了才会返回YES
+#define IS_LANDSCAPE UIInterfaceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation])
+
+#define APP_KEY   @"5d4d3e3b570df313b20005c3"
+/// 将所有屏幕按照宽松/紧凑分类，其中 iPad、iPhone XS Max/XR/Plus 均为宽松屏幕，但开启了放大模式的设备均会视为紧凑屏幕
+#define PreferredValueForVisualDevice(_regular, _compact) ([QMUIHelper isRegularScreen] ? _regular : _compact)
+/// navigationBar 的静态高度
+#define NavigationBarHeight (IS_LANDSCAPE ? PreferredValueForVisualDevice(44, 32) : 44)
+
+#define getRectNavAndStatusHight \
+({\
+CGRect rectStatus = [[UIApplication sharedApplication] statusBarFrame];\
+CGRect rectNav = self.navigationController.navigationBar.frame;\
+( rectStatus.size.height+ rectNav.size.height);\
+})\
+
+
+#define ThemeColor [UIColor colorWithRed:190/255.0 green:149/255.0 blue:61/255.0 alpha:1]
+#define UserDefault(str)\
+[[NSUserDefaults standardUserDefaults]objectForKey:(str)]\
+
+
+
+#define AddtoUserDefault(obj,key)\
+[[NSUserDefaults standardUserDefaults]setObject:obj forKey:(key)];\
+[[NSUserDefaults standardUserDefaults]synchronize];\
+
+#define ADDTOSHOPCAT @"shopC"
+
+#define ThemeFont  @"PingFangSC-Regular"
+
+#endif /* Rot_pch */

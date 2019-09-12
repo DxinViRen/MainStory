@@ -1,0 +1,76 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
+  - LLDebugTool (1.0.3):
+    - FMDB
+  - Masonry (1.1.0)
+  - MJExtension (3.1.0)
+  - UMCCommon (2.1.1)
+  - UMCSecurityPlugins (1.0.6)
+  - UMCShare/Core (6.9.6):
+    - UMCCommon
+  - UMCShare/Social/QQ (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedQQ
+  - UMCShare/Social/ReducedQQ (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/WeChat (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedWeChat
+  - UMCShare/UI (6.9.6):
+    - UMCCommon
+    - UMCShare/Core
+  - Weibo_SDK (3.2.3)
+
+DEPENDENCIES:
+  - FMDB
+  - IGListKit
+  - LLDebugTool (~> 1.0.0)
+  - Masonry
+  - MJExtension
+  - UMCCommon
+  - UMCSecurityPlugins
+  - UMCShare/Social/QQ
+  - UMCShare/Social/ReducedQQ
+  - UMCShare/Social/WeChat
+  - UMCShare/UI
+  - Weibo_SDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - IGListKit
+    - LLDebugTool
+    - Masonry
+    - MJExtension
+    - UMCCommon
+    - UMCSecurityPlugins
+    - UMCShare
+    - Weibo_SDK
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  LLDebugTool: 648252467890b9446c721c4790f1e7759e2e557b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 6b69b3bef2864fd550ce1a184eda219e321209d2
+  UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  UMCShare: e0cef55c0fd6051254c8cda1d0630eb578b27bad
+  Weibo_SDK: 652ca78c2f7147a5de5e75e7cbea89838a81772a
+
+PODFILE CHECKSUM: 8d3316426dfdffa82265a17707bc86bd787ca327
+
+COCOAPODS: 1.7.5

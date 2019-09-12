@@ -1,0 +1,1004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDF01A8CC94985CD655C237 /* libPods-中华兵学之十大阵法.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF90FF1256B354A135F04F25 /* libPods-中华兵学之十大阵法.a */; };
+		D8099CDB22F4FC69004D97D9 /* mainData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8099CDA22F4FC69004D97D9 /* mainData.plist */; };
+		D8099CE222F54A88004D97D9 /* WordLIstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8099CE122F54A88004D97D9 /* WordLIstViewController.m */; };
+		D8099CE522F57FE3004D97D9 /* WordListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8099CE422F57FE3004D97D9 /* WordListCell.m */; };
+		D8099CEE22F5D0A1004D97D9 /* ConnectUsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8099CED22F5D0A1004D97D9 /* ConnectUsVC.m */; };
+		D8099CF322F67F2A004D97D9 /* WordItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8099CF222F67F2A004D97D9 /* WordItemModel.m */; };
+		D8099CF922F87B79004D97D9 /* connectUsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8099CF822F87B79004D97D9 /* connectUsCell.m */; };
+		D80D1AC022EE9C5F00D971D1 /* SectionSeptemporModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D1AB922EE9C5F00D971D1 /* SectionSeptemporModel.m */; };
+		D80D1AC122EE9C5F00D971D1 /* HomeCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D1ABB22EE9C5F00D971D1 /* HomeCellModel.m */; };
+		D80D1AC222EE9C5F00D971D1 /* SectionSeporModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D1ABC22EE9C5F00D971D1 /* SectionSeporModel.m */; };
+		D80D1AC322EE9C5F00D971D1 /* GooddModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D1ABD22EE9C5F00D971D1 /* GooddModel.m */; };
+		D80D1AC822EEA5C300D971D1 /* NSArray+Adpa.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D1AC722EEA5C300D971D1 /* NSArray+Adpa.m */; };
+		D80D1ACD22EEA5CA00D971D1 /* UIColor+QCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D1AC922EEA5CA00D971D1 /* UIColor+QCategory.m */; };
+		D80D1ACE22EEA5CA00D971D1 /* UINavigationBar+handle.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D1ACA22EEA5CA00D971D1 /* UINavigationBar+handle.m */; };
+		D81155BC22FBC56D009C9E8E /* CollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D81155BB22FBC56D009C9E8E /* CollectionVC.m */; };
+		D81155BE22FBC6DB009C9E8E /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81155BD22FBC6DB009C9E8E /* View.xib */; };
+		D81D324922FD797E00E3C4BD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D81D324822FD797E00E3C4BD /* libsqlite3.tbd */; };
+		D81D324B22FD798900E3C4BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81D324A22FD798900E3C4BD /* CoreGraphics.framework */; };
+		D81D324E22FD8EC000E3C4BD /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D81D324D22FD8EC000E3C4BD /* DataManager.m */; };
+		D85B1211232629A6008621F7 /* OptionAlerterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D85B1210232629A6008621F7 /* OptionAlerterView.m */; };
+		D85B14BA2328A599008621F7 /* CollecModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D85B14B92328A599008621F7 /* CollecModel.m */; };
+		D8630E8923013CB400A5E489 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8630E8723013CB400A5E489 /* LoginViewController.m */; };
+		D8630E8A23013CB400A5E489 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8630E8823013CB400A5E489 /* LoginViewController.xib */; };
+		D8630E8C2301487F00A5E489 /* 12345.png in Resources */ = {isa = PBXBuildFile; fileRef = D8630E8B2301487E00A5E489 /* 12345.png */; };
+		D8630E902302479600A5E489 /* UserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8630E8E2302479600A5E489 /* UserInfoCell.m */; };
+		D8630E912302479600A5E489 /* UserInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8630E8F2302479600A5E489 /* UserInfoCell.xib */; };
+		D8630E9523024BCB00A5E489 /* wenjiqiwu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8630E9423024BCB00A5E489 /* wenjiqiwu.jpg */; };
+		D8630E982302977F00A5E489 /* ConnectUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8630E972302977F00A5E489 /* ConnectUserModel.m */; };
+		D8A0529322ED58CB00DFBDC5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A0529222ED58CB00DFBDC5 /* HomeViewController.m */; };
+		D8A0529922ED58F900DFBDC5 /* USViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A0529822ED58F900DFBDC5 /* USViewController.m */; };
+		D8B600DE22FA5AF900191E31 /* MainTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B600DD22FA5AF900191E31 /* MainTabVC.m */; };
+		D8BCDBBE22F17B0900BD1F8A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCDBBD22F17B0900BD1F8A /* BaseViewController.m */; };
+		D8BCDBC122F17DE200BD1F8A /* MainSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCDBC022F17DE200BD1F8A /* MainSectionController.m */; };
+		D8BCDBC422F17E3C00BD1F8A /* MainSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCDBC322F17E3C00BD1F8A /* MainSectionModel.m */; };
+		D8BCDBC822F188E300BD1F8A /* MainCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCDBC722F188E300BD1F8A /* MainCellModel.m */; };
+		D8BCDBCC22F18E5B00BD1F8A /* MainCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCDBCB22F18E5B00BD1F8A /* MainCollectionCell.m */; };
+		D8BCDBCF22F1936300BD1F8A /* WhateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCDBCE22F1936300BD1F8A /* WhateCell.m */; };
+		D8BCDBD922F27CD800BD1F8A /* UINavigationController+DZM.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCDBD522F27CD800BD1F8A /* UINavigationController+DZM.m */; };
+		D8BCDBDA22F27CD800BD1F8A /* DZMATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCDBD622F27CD800BD1F8A /* DZMATViewController.m */; };
+		D8BCDBDB22F27CD800BD1F8A /* DZMAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCDBD722F27CD800BD1F8A /* DZMAnimatedTransitioning.m */; };
+		D8BCDBDC22F27CD800BD1F8A /* UIViewController+DZM.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCDBD822F27CD800BD1F8A /* UIViewController+DZM.m */; };
+		D8BCDBDF22F2801B00BD1F8A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCDBDE22F2801A00BD1F8A /* DetailViewController.m */; };
+		D8D66EB922EB237500D34B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D66EB822EB237500D34B09 /* AppDelegate.m */; };
+		D8D66EBC22EB237500D34B09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D66EBB22EB237500D34B09 /* ViewController.m */; };
+		D8D66EBF22EB237500D34B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D66EBD22EB237500D34B09 /* Main.storyboard */; };
+		D8D66EC122EB237600D34B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D66EC022EB237600D34B09 /* Assets.xcassets */; };
+		D8D66EC722EB237600D34B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D66EC622EB237600D34B09 /* main.m */; };
+		D8D66ED122EB237600D34B09 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D66ED022EB237600D34B09 /* _________Tests.m */; };
+		D8D66EDC22EB237600D34B09 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D66EDB22EB237600D34B09 /* _________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8D66ECD22EB237600D34B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D66EAC22EB237500D34B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D66EB322EB237500D34B09;
+			remoteInfo = "中华兵学之十大阵法";
+		};
+		D8D66ED822EB237600D34B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D66EAC22EB237500D34B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D66EB322EB237500D34B09;
+			remoteInfo = "中华兵学之十大阵法";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5540C8F1728BDA7C1A6EDD2C /* Pods-中华兵学之十大阵法.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-中华兵学之十大阵法.release.xcconfig"; path = "Target Support Files/Pods-中华兵学之十大阵法/Pods-中华兵学之十大阵法.release.xcconfig"; sourceTree = "<group>"; };
+		5D16807B12993C49C2226436 /* Pods-中华兵学之十大阵法.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-中华兵学之十大阵法.debug.xcconfig"; path = "Target Support Files/Pods-中华兵学之十大阵法/Pods-中华兵学之十大阵法.debug.xcconfig"; sourceTree = "<group>"; };
+		CF90FF1256B354A135F04F25 /* libPods-中华兵学之十大阵法.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-中华兵学之十大阵法.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8099CDA22F4FC69004D97D9 /* mainData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = mainData.plist; sourceTree = "<group>"; };
+		D8099CE022F54A88004D97D9 /* WordLIstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordLIstViewController.h; sourceTree = "<group>"; };
+		D8099CE122F54A88004D97D9 /* WordLIstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordLIstViewController.m; sourceTree = "<group>"; };
+		D8099CE322F57FE3004D97D9 /* WordListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordListCell.h; sourceTree = "<group>"; };
+		D8099CE422F57FE3004D97D9 /* WordListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordListCell.m; sourceTree = "<group>"; };
+		D8099CEC22F5D0A1004D97D9 /* ConnectUsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectUsVC.h; sourceTree = "<group>"; };
+		D8099CED22F5D0A1004D97D9 /* ConnectUsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectUsVC.m; sourceTree = "<group>"; };
+		D8099CF122F67F2A004D97D9 /* WordItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordItemModel.h; sourceTree = "<group>"; };
+		D8099CF222F67F2A004D97D9 /* WordItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordItemModel.m; sourceTree = "<group>"; };
+		D8099CF722F87B79004D97D9 /* connectUsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectUsCell.h; sourceTree = "<group>"; };
+		D8099CF822F87B79004D97D9 /* connectUsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = connectUsCell.m; sourceTree = "<group>"; };
+		D80D1AB522EE9C5F00D971D1 /* HomeCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCellModel.h; sourceTree = "<group>"; };
+		D80D1AB722EE9C5F00D971D1 /* SectionSeporModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionSeporModel.h; sourceTree = "<group>"; };
+		D80D1AB822EE9C5F00D971D1 /* GooddModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooddModel.h; sourceTree = "<group>"; };
+		D80D1AB922EE9C5F00D971D1 /* SectionSeptemporModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionSeptemporModel.m; sourceTree = "<group>"; };
+		D80D1ABB22EE9C5F00D971D1 /* HomeCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCellModel.m; sourceTree = "<group>"; };
+		D80D1ABC22EE9C5F00D971D1 /* SectionSeporModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionSeporModel.m; sourceTree = "<group>"; };
+		D80D1ABD22EE9C5F00D971D1 /* GooddModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooddModel.m; sourceTree = "<group>"; };
+		D80D1ABE22EE9C5F00D971D1 /* SectionSeptemporModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionSeptemporModel.h; sourceTree = "<group>"; };
+		D80D1AC422EE9C9A00D971D1 /* HomeCellModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCellModelProtocol.h; sourceTree = "<group>"; };
+		D80D1AC522EE9C9B00D971D1 /* HomeListCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeListCellProtocol.h; sourceTree = "<group>"; };
+		D80D1AC622EEA5C200D971D1 /* NSArray+Adpa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Adpa.h"; sourceTree = "<group>"; };
+		D80D1AC722EEA5C300D971D1 /* NSArray+Adpa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Adpa.m"; sourceTree = "<group>"; };
+		D80D1AC922EEA5CA00D971D1 /* UIColor+QCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QCategory.m"; sourceTree = "<group>"; };
+		D80D1ACA22EEA5CA00D971D1 /* UINavigationBar+handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+handle.m"; sourceTree = "<group>"; };
+		D80D1ACB22EEA5CA00D971D1 /* UINavigationBar+handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+handle.h"; sourceTree = "<group>"; };
+		D80D1ACC22EEA5CA00D971D1 /* UIColor+QCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QCategory.h"; sourceTree = "<group>"; };
+		D81155BA22FBC56D009C9E8E /* CollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionVC.h; sourceTree = "<group>"; };
+		D81155BB22FBC56D009C9E8E /* CollectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionVC.m; sourceTree = "<group>"; };
+		D81155BD22FBC6DB009C9E8E /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		D81D324822FD797E00E3C4BD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D81D324A22FD798900E3C4BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D81D324C22FD8EC000E3C4BD /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		D81D324D22FD8EC000E3C4BD /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		D85B120F232629A6008621F7 /* OptionAlerterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionAlerterView.h; sourceTree = "<group>"; };
+		D85B1210232629A6008621F7 /* OptionAlerterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionAlerterView.m; sourceTree = "<group>"; };
+		D85B14B82328A599008621F7 /* CollecModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollecModel.h; sourceTree = "<group>"; };
+		D85B14B92328A599008621F7 /* CollecModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollecModel.m; sourceTree = "<group>"; };
+		D8630E8623013CB400A5E489 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D8630E8723013CB400A5E489 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D8630E8823013CB400A5E489 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		D8630E8B2301487E00A5E489 /* 12345.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12345.png; sourceTree = "<group>"; };
+		D8630E8D2302479600A5E489 /* UserInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoCell.h; sourceTree = "<group>"; };
+		D8630E8E2302479600A5E489 /* UserInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoCell.m; sourceTree = "<group>"; };
+		D8630E8F2302479600A5E489 /* UserInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoCell.xib; sourceTree = "<group>"; };
+		D8630E9423024BCB00A5E489 /* wenjiqiwu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wenjiqiwu.jpg; sourceTree = "<group>"; };
+		D8630E962302977F00A5E489 /* ConnectUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectUserModel.h; sourceTree = "<group>"; };
+		D8630E972302977F00A5E489 /* ConnectUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectUserModel.m; sourceTree = "<group>"; };
+		D8A0529122ED58CB00DFBDC5 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D8A0529222ED58CB00DFBDC5 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D8A0529722ED58F900DFBDC5 /* USViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USViewController.h; sourceTree = "<group>"; };
+		D8A0529822ED58F900DFBDC5 /* USViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USViewController.m; sourceTree = "<group>"; };
+		D8A0529D22ED5C0300DFBDC5 /* Rot.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rot.pch; sourceTree = "<group>"; };
+		D8B600DC22FA5AF900191E31 /* MainTabVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabVC.h; sourceTree = "<group>"; };
+		D8B600DD22FA5AF900191E31 /* MainTabVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabVC.m; sourceTree = "<group>"; };
+		D8BCDBBC22F17B0900BD1F8A /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D8BCDBBD22F17B0900BD1F8A /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D8BCDBBF22F17DE200BD1F8A /* MainSectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainSectionController.h; sourceTree = "<group>"; };
+		D8BCDBC022F17DE200BD1F8A /* MainSectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainSectionController.m; sourceTree = "<group>"; };
+		D8BCDBC222F17E3C00BD1F8A /* MainSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainSectionModel.h; sourceTree = "<group>"; };
+		D8BCDBC322F17E3C00BD1F8A /* MainSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainSectionModel.m; sourceTree = "<group>"; };
+		D8BCDBC522F1858000BD1F8A /* MainSectionModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainSectionModelProtocol.h; sourceTree = "<group>"; };
+		D8BCDBC622F188E300BD1F8A /* MainCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainCellModel.h; sourceTree = "<group>"; };
+		D8BCDBC722F188E300BD1F8A /* MainCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainCellModel.m; sourceTree = "<group>"; };
+		D8BCDBC922F18CD000BD1F8A /* MainCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainCellProtocol.h; sourceTree = "<group>"; };
+		D8BCDBCA22F18E5B00BD1F8A /* MainCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainCollectionCell.h; sourceTree = "<group>"; };
+		D8BCDBCB22F18E5B00BD1F8A /* MainCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainCollectionCell.m; sourceTree = "<group>"; };
+		D8BCDBCD22F1936300BD1F8A /* WhateCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhateCell.h; sourceTree = "<group>"; };
+		D8BCDBCE22F1936300BD1F8A /* WhateCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhateCell.m; sourceTree = "<group>"; };
+		D8BCDBD122F27CD800BD1F8A /* DZMATViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZMATViewController.h; sourceTree = "<group>"; };
+		D8BCDBD222F27CD800BD1F8A /* UINavigationController+DZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DZM.h"; sourceTree = "<group>"; };
+		D8BCDBD322F27CD800BD1F8A /* UIViewController+DZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DZM.h"; sourceTree = "<group>"; };
+		D8BCDBD422F27CD800BD1F8A /* DZMAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZMAnimatedTransitioning.h; sourceTree = "<group>"; };
+		D8BCDBD522F27CD800BD1F8A /* UINavigationController+DZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DZM.m"; sourceTree = "<group>"; };
+		D8BCDBD622F27CD800BD1F8A /* DZMATViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZMATViewController.m; sourceTree = "<group>"; };
+		D8BCDBD722F27CD800BD1F8A /* DZMAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZMAnimatedTransitioning.m; sourceTree = "<group>"; };
+		D8BCDBD822F27CD800BD1F8A /* UIViewController+DZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DZM.m"; sourceTree = "<group>"; };
+		D8BCDBDD22F2801A00BD1F8A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D8BCDBDE22F2801A00BD1F8A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D8D66EB422EB237500D34B09 /* 中华兵学之十大阵法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "中华兵学之十大阵法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D66EB722EB237500D34B09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8D66EB822EB237500D34B09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8D66EBA22EB237500D34B09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8D66EBB22EB237500D34B09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8D66EBE22EB237500D34B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8D66EC022EB237600D34B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8D66EC522EB237600D34B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D66EC622EB237600D34B09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8D66ECC22EB237600D34B09 /* 中华兵学之十大阵法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "中华兵学之十大阵法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D66ED022EB237600D34B09 /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		D8D66ED222EB237600D34B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D66ED722EB237600D34B09 /* 中华兵学之十大阵法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "中华兵学之十大阵法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D66EDB22EB237600D34B09 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		D8D66EDD22EB237600D34B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8D66EB122EB237500D34B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81D324B22FD798900E3C4BD /* CoreGraphics.framework in Frameworks */,
+				D81D324922FD797E00E3C4BD /* libsqlite3.tbd in Frameworks */,
+				1DDF01A8CC94985CD655C237 /* libPods-中华兵学之十大阵法.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D66EC922EB237600D34B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D66ED422EB237600D34B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A89C36F91315310892F76884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D81D324A22FD798900E3C4BD /* CoreGraphics.framework */,
+				D81D324822FD797E00E3C4BD /* libsqlite3.tbd */,
+				CF90FF1256B354A135F04F25 /* libPods-中华兵学之十大阵法.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF24F75256674C91FAEEA7B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D16807B12993C49C2226436 /* Pods-中华兵学之十大阵法.debug.xcconfig */,
+				5540C8F1728BDA7C1A6EDD2C /* Pods-中华兵学之十大阵法.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8099CE922F5897E004D97D9 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D8D66EBA22EB237500D34B09 /* ViewController.h */,
+				D8D66EBB22EB237500D34B09 /* ViewController.m */,
+				D8A0529122ED58CB00DFBDC5 /* HomeViewController.h */,
+				D8A0529222ED58CB00DFBDC5 /* HomeViewController.m */,
+				D8BCDBDD22F2801A00BD1F8A /* DetailViewController.h */,
+				D8BCDBDE22F2801A00BD1F8A /* DetailViewController.m */,
+				D8BCDBBC22F17B0900BD1F8A /* BaseViewController.h */,
+				D8BCDBBD22F17B0900BD1F8A /* BaseViewController.m */,
+				D8BCDBBF22F17DE200BD1F8A /* MainSectionController.h */,
+				D81155BA22FBC56D009C9E8E /* CollectionVC.h */,
+				D81155BB22FBC56D009C9E8E /* CollectionVC.m */,
+				D8630E8B2301487E00A5E489 /* 12345.png */,
+				D8BCDBC022F17DE200BD1F8A /* MainSectionController.m */,
+				D8099CE022F54A88004D97D9 /* WordLIstViewController.h */,
+				D8630E8623013CB400A5E489 /* LoginViewController.h */,
+				D8630E8723013CB400A5E489 /* LoginViewController.m */,
+				D8630E8823013CB400A5E489 /* LoginViewController.xib */,
+				D8099CE122F54A88004D97D9 /* WordLIstViewController.m */,
+				D8099CEC22F5D0A1004D97D9 /* ConnectUsVC.h */,
+				D8099CED22F5D0A1004D97D9 /* ConnectUsVC.m */,
+				D8099CF722F87B79004D97D9 /* connectUsCell.h */,
+				D8099CF822F87B79004D97D9 /* connectUsCell.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		D8099CEA22F58996004D97D9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D8BCDBCD22F1936300BD1F8A /* WhateCell.h */,
+				D8BCDBCE22F1936300BD1F8A /* WhateCell.m */,
+				D8BCDBCA22F18E5B00BD1F8A /* MainCollectionCell.h */,
+				D8BCDBCB22F18E5B00BD1F8A /* MainCollectionCell.m */,
+				D8099CE322F57FE3004D97D9 /* WordListCell.h */,
+				D8099CE422F57FE3004D97D9 /* WordListCell.m */,
+				D8630E8D2302479600A5E489 /* UserInfoCell.h */,
+				D8630E8E2302479600A5E489 /* UserInfoCell.m */,
+				D8630E8F2302479600A5E489 /* UserInfoCell.xib */,
+				D85B120F232629A6008621F7 /* OptionAlerterView.h */,
+				D85B1210232629A6008621F7 /* OptionAlerterView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D8099CEB22F589AA004D97D9 /* modle */ = {
+			isa = PBXGroup;
+			children = (
+				D81D324C22FD8EC000E3C4BD /* DataManager.h */,
+				D81D324D22FD8EC000E3C4BD /* DataManager.m */,
+				D8BCDBC222F17E3C00BD1F8A /* MainSectionModel.h */,
+				D8BCDBC322F17E3C00BD1F8A /* MainSectionModel.m */,
+				D8BCDBC622F188E300BD1F8A /* MainCellModel.h */,
+				D8BCDBC722F188E300BD1F8A /* MainCellModel.m */,
+				D8099CF122F67F2A004D97D9 /* WordItemModel.h */,
+				D8099CF222F67F2A004D97D9 /* WordItemModel.m */,
+				D8630E962302977F00A5E489 /* ConnectUserModel.h */,
+				D8630E972302977F00A5E489 /* ConnectUserModel.m */,
+				D85B14B82328A599008621F7 /* CollecModel.h */,
+				D85B14B92328A599008621F7 /* CollecModel.m */,
+			);
+			path = modle;
+			sourceTree = "<group>";
+		};
+		D80D1AB422EE9C5F00D971D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D80D1AC422EE9C9A00D971D1 /* HomeCellModelProtocol.h */,
+				D80D1AC522EE9C9B00D971D1 /* HomeListCellProtocol.h */,
+				D80D1AB522EE9C5F00D971D1 /* HomeCellModel.h */,
+				D80D1AB722EE9C5F00D971D1 /* SectionSeporModel.h */,
+				D80D1AB822EE9C5F00D971D1 /* GooddModel.h */,
+				D80D1AB922EE9C5F00D971D1 /* SectionSeptemporModel.m */,
+				D80D1ABB22EE9C5F00D971D1 /* HomeCellModel.m */,
+				D80D1ABC22EE9C5F00D971D1 /* SectionSeporModel.m */,
+				D80D1ABD22EE9C5F00D971D1 /* GooddModel.m */,
+				D80D1ABE22EE9C5F00D971D1 /* SectionSeptemporModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8BCDBD022F27CD800BD1F8A /* DZMAnimatedTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				D8BCDBD122F27CD800BD1F8A /* DZMATViewController.h */,
+				D8BCDBD222F27CD800BD1F8A /* UINavigationController+DZM.h */,
+				D8BCDBD322F27CD800BD1F8A /* UIViewController+DZM.h */,
+				D8BCDBD422F27CD800BD1F8A /* DZMAnimatedTransitioning.h */,
+				D8BCDBD522F27CD800BD1F8A /* UINavigationController+DZM.m */,
+				D8BCDBD622F27CD800BD1F8A /* DZMATViewController.m */,
+				D8BCDBD722F27CD800BD1F8A /* DZMAnimatedTransitioning.m */,
+				D8BCDBD822F27CD800BD1F8A /* UIViewController+DZM.m */,
+			);
+			path = DZMAnimatedTransitioning;
+			sourceTree = "<group>";
+		};
+		D8D66EAB22EB237500D34B09 = {
+			isa = PBXGroup;
+			children = (
+				D8D66EB622EB237500D34B09 /* 中华兵学之十大阵法 */,
+				D8D66ECF22EB237600D34B09 /* 中华兵学之十大阵法Tests */,
+				D8D66EDA22EB237600D34B09 /* 中华兵学之十大阵法UITests */,
+				D8D66EB522EB237500D34B09 /* Products */,
+				AF24F75256674C91FAEEA7B4 /* Pods */,
+				A89C36F91315310892F76884 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8D66EB522EB237500D34B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8D66EB422EB237500D34B09 /* 中华兵学之十大阵法.app */,
+				D8D66ECC22EB237600D34B09 /* 中华兵学之十大阵法Tests.xctest */,
+				D8D66ED722EB237600D34B09 /* 中华兵学之十大阵法UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8D66EB622EB237500D34B09 /* 中华兵学之十大阵法 */ = {
+			isa = PBXGroup;
+			children = (
+				D80D1AB422EE9C5F00D971D1 /* Model */,
+				D80D1ACB22EEA5CA00D971D1 /* UINavigationBar+handle.h */,
+				D80D1ACA22EEA5CA00D971D1 /* UINavigationBar+handle.m */,
+				D80D1ACC22EEA5CA00D971D1 /* UIColor+QCategory.h */,
+				D80D1AC922EEA5CA00D971D1 /* UIColor+QCategory.m */,
+				D8D66EB722EB237500D34B09 /* AppDelegate.h */,
+				D8D66EB822EB237500D34B09 /* AppDelegate.m */,
+				D81155BD22FBC6DB009C9E8E /* View.xib */,
+				D8BCDBD022F27CD800BD1F8A /* DZMAnimatedTransitioning */,
+				D8099CE922F5897E004D97D9 /* VC */,
+				D8099CEA22F58996004D97D9 /* view */,
+				D8099CEB22F589AA004D97D9 /* modle */,
+				D8BCDBC922F18CD000BD1F8A /* MainCellProtocol.h */,
+				D8099CDA22F4FC69004D97D9 /* mainData.plist */,
+				D8BCDBC522F1858000BD1F8A /* MainSectionModelProtocol.h */,
+				D8A0529722ED58F900DFBDC5 /* USViewController.h */,
+				D80D1AC622EEA5C200D971D1 /* NSArray+Adpa.h */,
+				D80D1AC722EEA5C300D971D1 /* NSArray+Adpa.m */,
+				D8B600DC22FA5AF900191E31 /* MainTabVC.h */,
+				D8B600DD22FA5AF900191E31 /* MainTabVC.m */,
+				D8630E9423024BCB00A5E489 /* wenjiqiwu.jpg */,
+				D8A0529822ED58F900DFBDC5 /* USViewController.m */,
+				D8A0529D22ED5C0300DFBDC5 /* Rot.pch */,
+				D8D66EBD22EB237500D34B09 /* Main.storyboard */,
+				D8D66EC022EB237600D34B09 /* Assets.xcassets */,
+				D8D66EC522EB237600D34B09 /* Info.plist */,
+				D8D66EC622EB237600D34B09 /* main.m */,
+			);
+			path = "中华兵学之十大阵法";
+			sourceTree = "<group>";
+		};
+		D8D66ECF22EB237600D34B09 /* 中华兵学之十大阵法Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D8D66ED022EB237600D34B09 /* _________Tests.m */,
+				D8D66ED222EB237600D34B09 /* Info.plist */,
+			);
+			path = "中华兵学之十大阵法Tests";
+			sourceTree = "<group>";
+		};
+		D8D66EDA22EB237600D34B09 /* 中华兵学之十大阵法UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8D66EDB22EB237600D34B09 /* _________UITests.m */,
+				D8D66EDD22EB237600D34B09 /* Info.plist */,
+			);
+			path = "中华兵学之十大阵法UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8D66EB322EB237500D34B09 /* 中华兵学之十大阵法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D66EE022EB237600D34B09 /* Build configuration list for PBXNativeTarget "中华兵学之十大阵法" */;
+			buildPhases = (
+				637990DD014898BD253D39FE /* [CP] Check Pods Manifest.lock */,
+				D8D66EB022EB237500D34B09 /* Sources */,
+				D8D66EB122EB237500D34B09 /* Frameworks */,
+				D8D66EB222EB237500D34B09 /* Resources */,
+				B0DE4BB93AC5738CEFD97301 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "中华兵学之十大阵法";
+			productName = "中华兵学之十大阵法";
+			productReference = D8D66EB422EB237500D34B09 /* 中华兵学之十大阵法.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8D66ECB22EB237600D34B09 /* 中华兵学之十大阵法Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D66EE322EB237600D34B09 /* Build configuration list for PBXNativeTarget "中华兵学之十大阵法Tests" */;
+			buildPhases = (
+				D8D66EC822EB237600D34B09 /* Sources */,
+				D8D66EC922EB237600D34B09 /* Frameworks */,
+				D8D66ECA22EB237600D34B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D66ECE22EB237600D34B09 /* PBXTargetDependency */,
+			);
+			name = "中华兵学之十大阵法Tests";
+			productName = "中华兵学之十大阵法Tests";
+			productReference = D8D66ECC22EB237600D34B09 /* 中华兵学之十大阵法Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8D66ED622EB237600D34B09 /* 中华兵学之十大阵法UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D66EE622EB237600D34B09 /* Build configuration list for PBXNativeTarget "中华兵学之十大阵法UITests" */;
+			buildPhases = (
+				D8D66ED322EB237600D34B09 /* Sources */,
+				D8D66ED422EB237600D34B09 /* Frameworks */,
+				D8D66ED522EB237600D34B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D66ED922EB237600D34B09 /* PBXTargetDependency */,
+			);
+			name = "中华兵学之十大阵法UITests";
+			productName = "中华兵学之十大阵法UITests";
+			productReference = D8D66ED722EB237600D34B09 /* 中华兵学之十大阵法UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8D66EAC22EB237500D34B09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = koryv;
+				TargetAttributes = {
+					D8D66EB322EB237500D34B09 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D8D66ECB22EB237600D34B09 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D8D66EB322EB237500D34B09;
+					};
+					D8D66ED622EB237600D34B09 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D8D66EB322EB237500D34B09;
+					};
+				};
+			};
+			buildConfigurationList = D8D66EAF22EB237500D34B09 /* Build configuration list for PBXProject "中华兵学之十大阵法" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8D66EAB22EB237500D34B09;
+			productRefGroup = D8D66EB522EB237500D34B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8D66EB322EB237500D34B09 /* 中华兵学之十大阵法 */,
+				D8D66ECB22EB237600D34B09 /* 中华兵学之十大阵法Tests */,
+				D8D66ED622EB237600D34B09 /* 中华兵学之十大阵法UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8D66EB222EB237500D34B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8630E8A23013CB400A5E489 /* LoginViewController.xib in Resources */,
+				D8630E8C2301487F00A5E489 /* 12345.png in Resources */,
+				D81155BE22FBC6DB009C9E8E /* View.xib in Resources */,
+				D8630E912302479600A5E489 /* UserInfoCell.xib in Resources */,
+				D8D66EC122EB237600D34B09 /* Assets.xcassets in Resources */,
+				D8D66EBF22EB237500D34B09 /* Main.storyboard in Resources */,
+				D8099CDB22F4FC69004D97D9 /* mainData.plist in Resources */,
+				D8630E9523024BCB00A5E489 /* wenjiqiwu.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D66ECA22EB237600D34B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D66ED522EB237600D34B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		637990DD014898BD253D39FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-中华兵学之十大阵法-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0DE4BB93AC5738CEFD97301 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-中华兵学之十大阵法/Pods-中华兵学之十大阵法-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-中华兵学之十大阵法/Pods-中华兵学之十大阵法-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-中华兵学之十大阵法/Pods-中华兵学之十大阵法-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8D66EB022EB237500D34B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80D1AC322EE9C5F00D971D1 /* GooddModel.m in Sources */,
+				D8BCDBCC22F18E5B00BD1F8A /* MainCollectionCell.m in Sources */,
+				D8BCDBDF22F2801B00BD1F8A /* DetailViewController.m in Sources */,
+				D8BCDBC122F17DE200BD1F8A /* MainSectionController.m in Sources */,
+				D80D1ACD22EEA5CA00D971D1 /* UIColor+QCategory.m in Sources */,
+				D80D1AC822EEA5C300D971D1 /* NSArray+Adpa.m in Sources */,
+				D8630E902302479600A5E489 /* UserInfoCell.m in Sources */,
+				D85B14BA2328A599008621F7 /* CollecModel.m in Sources */,
+				D8D66EBC22EB237500D34B09 /* ViewController.m in Sources */,
+				D8BCDBBE22F17B0900BD1F8A /* BaseViewController.m in Sources */,
+				D8630E8923013CB400A5E489 /* LoginViewController.m in Sources */,
+				D8BCDBCF22F1936300BD1F8A /* WhateCell.m in Sources */,
+				D8D66EC722EB237600D34B09 /* main.m in Sources */,
+				D8BCDBC422F17E3C00BD1F8A /* MainSectionModel.m in Sources */,
+				D8D66EB922EB237500D34B09 /* AppDelegate.m in Sources */,
+				D8099CF922F87B79004D97D9 /* connectUsCell.m in Sources */,
+				D8BCDBC822F188E300BD1F8A /* MainCellModel.m in Sources */,
+				D85B1211232629A6008621F7 /* OptionAlerterView.m in Sources */,
+				D8A0529922ED58F900DFBDC5 /* USViewController.m in Sources */,
+				D8630E982302977F00A5E489 /* ConnectUserModel.m in Sources */,
+				D8099CEE22F5D0A1004D97D9 /* ConnectUsVC.m in Sources */,
+				D8B600DE22FA5AF900191E31 /* MainTabVC.m in Sources */,
+				D80D1AC122EE9C5F00D971D1 /* HomeCellModel.m in Sources */,
+				D8BCDBD922F27CD800BD1F8A /* UINavigationController+DZM.m in Sources */,
+				D8BCDBDC22F27CD800BD1F8A /* UIViewController+DZM.m in Sources */,
+				D81155BC22FBC56D009C9E8E /* CollectionVC.m in Sources */,
+				D8BCDBDA22F27CD800BD1F8A /* DZMATViewController.m in Sources */,
+				D81D324E22FD8EC000E3C4BD /* DataManager.m in Sources */,
+				D8099CE222F54A88004D97D9 /* WordLIstViewController.m in Sources */,
+				D80D1AC222EE9C5F00D971D1 /* SectionSeporModel.m in Sources */,
+				D8099CF322F67F2A004D97D9 /* WordItemModel.m in Sources */,
+				D8BCDBDB22F27CD800BD1F8A /* DZMAnimatedTransitioning.m in Sources */,
+				D80D1ACE22EEA5CA00D971D1 /* UINavigationBar+handle.m in Sources */,
+				D8A0529322ED58CB00DFBDC5 /* HomeViewController.m in Sources */,
+				D80D1AC022EE9C5F00D971D1 /* SectionSeptemporModel.m in Sources */,
+				D8099CE522F57FE3004D97D9 /* WordListCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D66EC822EB237600D34B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D66ED122EB237600D34B09 /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D66ED322EB237600D34B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D66EDC22EB237600D34B09 /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8D66ECE22EB237600D34B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D66EB322EB237500D34B09 /* 中华兵学之十大阵法 */;
+			targetProxy = D8D66ECD22EB237600D34B09 /* PBXContainerItemProxy */;
+		};
+		D8D66ED922EB237600D34B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D66EB322EB237500D34B09 /* 中华兵学之十大阵法 */;
+			targetProxy = D8D66ED822EB237600D34B09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8D66EBD22EB237500D34B09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D66EBE22EB237500D34B09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8D66EDE22EB237600D34B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8D66EDF22EB237600D34B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8D66EE122EB237600D34B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D16807B12993C49C2226436 /* Pods-中华兵学之十大阵法.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P4MS7XLR7;
+				GCC_PREFIX_HEADER = "$SRCROOT/中华兵学之十大阵法/Rot.pch";
+				INFOPLIST_FILE = "中华兵学之十大阵法/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"IGListKit\"",
+					"-l\"MJExtension\"",
+					"-l\"Masonry\"",
+					"-l\"SocialOfficialWeChat\"",
+					"-l\"SocialQQ\"",
+					"-l\"SocialWeChat\"",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SecurityEnvSDK\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMCommon\"",
+					"-framework",
+					"\"UMShare\"",
+					"-framework",
+					"\"UShareUI\"",
+					"-framework",
+					"\"UTDID\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = come.dianguce.idxin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D8D66EE222EB237600D34B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5540C8F1728BDA7C1A6EDD2C /* Pods-中华兵学之十大阵法.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P4MS7XLR7;
+				GCC_PREFIX_HEADER = "$SRCROOT/中华兵学之十大阵法/Rot.pch";
+				INFOPLIST_FILE = "中华兵学之十大阵法/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"IGListKit\"",
+					"-l\"MJExtension\"",
+					"-l\"Masonry\"",
+					"-l\"SocialOfficialWeChat\"",
+					"-l\"SocialQQ\"",
+					"-l\"SocialWeChat\"",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SecurityEnvSDK\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMCommon\"",
+					"-framework",
+					"\"UMShare\"",
+					"-framework",
+					"\"UShareUI\"",
+					"-framework",
+					"\"UTDID\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = come.dianguce.idxin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D8D66EE422EB237600D34B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X5XSAZMKZ;
+				INFOPLIST_FILE = "中华兵学之十大阵法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "koryv-r.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/中华兵学之十大阵法.app/中华兵学之十大阵法";
+			};
+			name = Debug;
+		};
+		D8D66EE522EB237600D34B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X5XSAZMKZ;
+				INFOPLIST_FILE = "中华兵学之十大阵法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "koryv-r.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/中华兵学之十大阵法.app/中华兵学之十大阵法";
+			};
+			name = Release;
+		};
+		D8D66EE722EB237600D34B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X5XSAZMKZ;
+				INFOPLIST_FILE = "中华兵学之十大阵法UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "koryv-r.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "中华兵学之十大阵法";
+			};
+			name = Debug;
+		};
+		D8D66EE822EB237600D34B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X5XSAZMKZ;
+				INFOPLIST_FILE = "中华兵学之十大阵法UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "koryv-r.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "中华兵学之十大阵法";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8D66EAF22EB237500D34B09 /* Build configuration list for PBXProject "中华兵学之十大阵法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D66EDE22EB237600D34B09 /* Debug */,
+				D8D66EDF22EB237600D34B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D66EE022EB237600D34B09 /* Build configuration list for PBXNativeTarget "中华兵学之十大阵法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D66EE122EB237600D34B09 /* Debug */,
+				D8D66EE222EB237600D34B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D66EE322EB237600D34B09 /* Build configuration list for PBXNativeTarget "中华兵学之十大阵法Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D66EE422EB237600D34B09 /* Debug */,
+				D8D66EE522EB237600D34B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D66EE622EB237600D34B09 /* Build configuration list for PBXNativeTarget "中华兵学之十大阵法UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D66EE722EB237600D34B09 /* Debug */,
+				D8D66EE822EB237600D34B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8D66EAC22EB237500D34B09 /* Project object */;
+}
